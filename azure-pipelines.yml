@@ -9,9 +9,9 @@
 trigger:
 - master
 
-#pool:
+pool:
 
- # vmImage: 'ubuntu-latest'
+- vmImage: 'ubuntu-latest'
 
 variables:
   buildConfiguration: 'Build'
