@@ -9,8 +9,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: self-hosted-pool
 
 variables:
   buildConfiguration: 'Build'
